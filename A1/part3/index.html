@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="navbar-header">
+            <ul class="nav">
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="FeedbackForm.html">Feedback</a></li>
+                <li class="nav-link"><a href="FAQ.html">FAQ</a></li>
+                <li class="nav-link"><a href="RegistrationForm.html">Register</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="calc-container">
+        <h1>Calculator</h1>
+        <div class="calculator">
+            <div id="calc-display" class="calculator-display three-col">0</div>
+            <div class="single-col">Clear</div>
+            <!--next line-->
+            <div class="single-col" onclick="appendDisplay(1)">1</div>
+            <div class="single-col" onclick="appendDisplay(2)">2</div>
+            <div class="single-col" onclick="appendDisplay(3)">3</div>
+            <div class="single-col" onclick="appendDisplay('/')">/</div>
+            <!--next line-->
+            <div class="single-col" onclick="appendDisplay(4)">4</div>
+            <div class="single-col" onclick="appendDisplay(5)">5</div>
+            <div class="single-col" onclick="appendDisplay(6)">6</div>
+            <div class="single-col" onclick="appendDisplay('*')">*</div>
+            <!--next line-->
+            <div class="single-col" onclick="appendDisplay(7)">7</div>
+            <div class="single-col" onclick="appendDisplay(8)">8</div>
+            <div class="single-col" onclick="appendDisplay(9)">9</div>
+            <div class="single-col" onclick="appendDisplay('-')">-</div>
+            <!--next line-->
+            <div class="single-col" onclick="appendDisplay(0)">0</div>
+            <div class="single-col" onclick="appendDisplay('.')">.</div>
+            <div class="single-col" onclick="calculate()">=</div>
+            <div class="single-col" onclick="appendDisplay('+')">+</div>
+        </div>
+        </div>
+    </body>
+</html>

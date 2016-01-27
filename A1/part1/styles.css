@@ -1,0 +1,24 @@
+ body{
+                background-color: black;
+                margin: 30px;
+            }
+            h1{
+                color: red;
+                text-align: right;
+            }
+            h2{
+                font-family: Verdana, Courier;
+                color: lightcyan;
+            }
+            p{
+                font-family: Courier, Verdana;
+                font-size: 120%;
+                color: gray;
+                border: 10px solid white;
+                padding: 10px;
+            }
+            pre{
+                color: white;
+                font-family: Courier, Verdana;
+                font-size: 80%;
+            }

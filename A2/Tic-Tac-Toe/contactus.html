@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="js/dist/jquery.validate.js"></script>
+   </head>
+    <body>
+        <h1>Contact Us</h1>
+        <form id="commentForm">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>
+                    <label for="name">Name<span>(required, minimum 2 characters)</span></label>
+                    <input id="name" name="name" minlength="2" type="text" required/>
+                </p>
+                <p>
+                    <label for="email">EMAIL</label>
+                    <input id="email" name="email" type="email" required/>
+                </p>
+                <p>
+                    <label for="concern">Concerns</label>
+                    <textarea id="concern" name="concern" required></textarea>
+                </p>
+                <p>
+                    <input type="submit" class="submit" value="Submit"/>
+                </p>
+            </fieldset>
+        </form>
+        <script>
+            $("#commentForm").validate();
+        </script>
+    </body>
+</html>

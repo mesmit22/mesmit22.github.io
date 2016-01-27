@@ -1,0 +1,62 @@
+body {
+	padding: 0px;
+	font-family: verdana,tahoma,arial;
+	font-size: 6pt;
+	font-weight: bold;
+	background-image: url('http://www.csszengarden.com/180/bck.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+#main-portion{
+    padding-top: 0px;
+    background-image: url('http://www.csszengarden.com/180/bck2.jpg');
+    background-repeat: no-repeat;
+    left: 149px;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+}
+
+#main-text{
+    background-image: url('http://www.csszengarden.com/180/title2.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    padding-top: 100px;
+    text-align: justify;
+    background-position: center top;
+}
+
+#support-text{
+    width: 400px;
+    text-align: justify;
+}
+
+#links{
+    position: absolute;
+    top: 125px;
+    left: 430px;
+    text-align: right;
+}
+
+a:link, a:visited, a:hover, a:active{
+    color: black;
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+p.p1{
+    text-indent: 20px;
+}
+
+h3{
+    text-indent: 30px;
+}
