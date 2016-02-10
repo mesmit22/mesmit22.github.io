@@ -46,6 +46,7 @@
         <div class="list-group">
       <!--  Product Container  -->
       <div class="list-group-item" ng-repeat="item in list.references">
+          <h1>{{item.title}}</h1>
         <h3>{{item.author}}</h3>
         <div ng-controller="GalleryController as gallery"  ng-show="item.image">
           <div class="img-wrap">
